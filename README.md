@@ -91,9 +91,7 @@ Integration with hospital ERP systems and IoT health sensors.
 Implementation of advanced consensus algorithms like Proof of Authority (PoA).
 Deployment on cloud-based distributed blockchain networks.
 
-Developed by
-Deepthi Sarvamangala Mouli
-
 Enhancement of patient privacy using data encryption techniques.
 
 Developed by
+Deepthi Sarvamangala Mouli
