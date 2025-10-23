@@ -1,1 +1,35 @@
+# Java build files
+*.class
+*.jar
+*.war
+*.ear
+/bin/
+/build/
+/out/
+/target/
+
+# IDE configurations
+/.idea/
+/.vscode/
+.classpath
+.project
+.settings/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.tmp
+*.swp
+
+# Sensitive or generated files
+userlogs.json
+src/otp/*.properties
+credentials.txt
+
+# Temporary data
+/temp/
+/resources/test_data/
 
