@@ -1,4 +1,4 @@
-Abstract
+Abstract:
 The project titled “Blockchain-Based Medical Data Management System” aims to enhance the security, transparency, and integrity of Electronic Medical Records (EMRs). Traditional medical data systems are centralized and prone to unauthorized modifications, single points of failure, and data leakage.
 This project utilizes blockchain technology to store and manage medical data in a decentralized manner, ensuring that each record is tamper-proof, traceable, and verifiable. By implementing role-based access for different stakeholders—doctors, patients, laboratories, and third-party users—the system ensures controlled visibility and improved accountability across all operations.
 
