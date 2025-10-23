@@ -58,4 +58,5 @@ public class Block {
 		blockcserver.jTextArea1.append("Block Mined!!! : " + hash+"\n");
                 readblockreq.previousHash=hash;//ensures block linkage
 	}
+
 }
