@@ -70,6 +70,8 @@ The record is converted into a JSON block and sent to the server.
 The server validates it by computing the hash with required difficulty.
 Upon validation, the block is added to the blockchain ledger.
 Patients and authorized third parties can access verified data via their modules.
+<img width="1379" height="565" alt="Picture7" src="https://github.com/user-attachments/assets/f2741542-8ef9-4bdd-ae5f-d28a00073968" />
+
 
 Results
 
@@ -78,6 +80,13 @@ Role-based access ensures that only authenticated users can interact with specif
 Proof of Work guarantees the integrity and authenticity of records.
 JSON-based block structures allow transparency and ease of verification.
 Manual testing confirmed that tampering with any block breaks the hash chain, ensuring trustworthiness of the system.
+
+<img width="255" height="248" alt="Picture2" src="https://github.com/user-attachments/assets/cb56588b-71fe-4233-b64a-a946afd8ae4d" />
+<img width="502" height="448" alt="Picture3" src="https://github.com/user-attachments/assets/0db635a2-d568-413b-96d9-eaa0170db386" />
+<img width="307" height="206" alt="Picture4" src="https://github.com/user-attachments/assets/a9b1729d-2b2c-47ff-a7f1-b1e4450fce84" />
+<img width="224" height="259" alt="Picture5" src="https://github.com/user-attachments/assets/e43aca3e-d4cd-49bc-b797-fa755a0bb32d" />
+<img width="253" height="217" alt="Picture6" src="https://github.com/user-attachments/assets/dad543b2-c184-4348-9193-dcca97314275" />
+
 
 Conclusion
 
@@ -90,8 +99,4 @@ Future Enhancements
 Integration with hospital ERP systems and IoT health sensors.
 Implementation of advanced consensus algorithms like Proof of Authority (PoA).
 Deployment on cloud-based distributed blockchain networks.
-
 Enhancement of patient privacy using data encryption techniques.
-
-Developed by
-Deepthi Sarvamangala Mouli
