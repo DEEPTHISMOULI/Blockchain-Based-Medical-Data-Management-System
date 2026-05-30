@@ -37,13 +37,16 @@ public class Block {
 	
 	}
         
-        //Calculate new hash based on blocks contents
+        //Calculate new hash based on blocks contents.
+        //FIX: treport (lab report) and report (doctor diagnosis) are now part of
+        //the digest. Any later edit to these clinical fields changes the hash and
+        //breaks the chain, so tamper-evidence now covers ALL clinical content.
 	public String calculateHash() {
 		String calculatedhash = StringUtil.applySha256( 
 				previousHash +
 				Long.toString(timeStamp) +
 				Integer.toString(nonce) + 
-				 aid + problem + test 
+				 aid + problem + test + treport + report 
 				);
 		return calculatedhash;
 	}
@@ -58,5 +61,4 @@ public class Block {
 		blockcserver.jTextArea1.append("Block Mined!!! : " + hash+"\n");
                 readblockreq.previousHash=hash;//ensures block linkage
 	}
-
 }
